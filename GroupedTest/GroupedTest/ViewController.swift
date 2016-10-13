@@ -23,17 +23,17 @@ class ViewController: UITableViewController, DTTableViewManageable {
         manager.memoryStorage.addItem("Man", toSection: 1)
         manager.memoryStorage.addItem("Woman", toSection: 1)
         
-        /* Doesn't work
+        
         manager.heightForFooter(withItem: String.self) { (model, section) -> CGFloat in
             return 20
         }
-         */
+        
     }
     
-    /* Doesn't work either
+    
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 20
     }
-     */
+    
 }
 

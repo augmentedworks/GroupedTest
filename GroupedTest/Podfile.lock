@@ -6,12 +6,21 @@ PODS:
     - DTModelStorage (~> 3.0.0-beta.2)
 
 DEPENDENCIES:
-  - DTTableViewManager (~> 5.0.0-beta.1)
+  - DTTableViewManager (from `https://github.com/DenHeadless/DTTableViewManager.git`)
+
+EXTERNAL SOURCES:
+  DTTableViewManager:
+    :git: https://github.com/DenHeadless/DTTableViewManager.git
+
+CHECKOUT OPTIONS:
+  DTTableViewManager:
+    :commit: ec810e71e9b02e15d355d0cec09471a4d3fb911a
+    :git: https://github.com/DenHeadless/DTTableViewManager.git
 
 SPEC CHECKSUMS:
   DTModelStorage: d7f6e13c24713fb4a02e1b72f7cd628bb6fe5d85
   DTTableViewManager: 3bbaaef1187917bfd7e24902a10a4a82dc4e7b2a
 
-PODFILE CHECKSUM: 20486276fa9caf7b5f3418c124e256fd9b2f9a75
+PODFILE CHECKSUM: 4f2b1da5554fc4e2e01215cdac6c105213be476a
 
 COCOAPODS: 1.0.1

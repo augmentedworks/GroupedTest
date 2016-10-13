@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GroupedTest' do
-pod 'DTTableViewManager', '~> 5.0.0-beta.1'
+pod 'DTTableViewManager', :git => 'https://github.com/DenHeadless/DTTableViewManager.git'
 end
 
 
