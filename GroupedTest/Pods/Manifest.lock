@@ -1,0 +1,17 @@
+PODS:
+  - DTModelStorage (3.0.0-beta.2):
+    - DTModelStorage/Core (= 3.0.0-beta.2)
+  - DTModelStorage/Core (3.0.0-beta.2)
+  - DTTableViewManager (5.0.0-beta.2):
+    - DTModelStorage (~> 3.0.0-beta.2)
+
+DEPENDENCIES:
+  - DTTableViewManager (~> 5.0.0-beta.1)
+
+SPEC CHECKSUMS:
+  DTModelStorage: d7f6e13c24713fb4a02e1b72f7cd628bb6fe5d85
+  DTTableViewManager: 3bbaaef1187917bfd7e24902a10a4a82dc4e7b2a
+
+PODFILE CHECKSUM: 20486276fa9caf7b5f3418c124e256fd9b2f9a75
+
+COCOAPODS: 1.0.1
